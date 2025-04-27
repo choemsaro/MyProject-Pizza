@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Domino Pizza</title>
+    <link rel="stylesheet" href="/FootProject.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+  </head>
+  <body>
+    <section id="Home">
+      <nav>
+        <div class="logo">
+          <img src="/pizza.png" />
+        </div>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Menu">Product</a></li>
+            <li><a href="#dis">Promotion</a></li>
+            <li><a href="#services-section">Service</a></li>
+            <li><a href="#About">About As</a></li>
+            <li><a href="#Contact">Contact As</a></li>
+        </ul>
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="men_text">
+          <h1>Get Fresh<span>Food</span><br />in a Easy Way</h1>
+        </div>
+        <div class="main_image">
+          <img src="/pizza.png" />
+        </div>
+      </div>
+      <p>
+        Pizza is a timeless favorite, loved for its perfect balance of flavors
+        and textures. Each slice is a masterpiece, starting with a golden,
+        crispy crust that supports a rich, flavorful tomato sauce. Melted cheese
+        blankets the pizza, adding a creamy layer that stretches with every
+        bite, while toppings like pepperoni, mushrooms, fresh basil, and olives
+        bring a burst of taste and variety. Whether you prefer a classic
+        Margherita, a meaty delight, or a veggie-loaded option, pizza offers
+        something for everyone. It’s more than just food; it’s a delicious,
+        shareable experience that brings people together with every slice.
+      </p>
+
+      <div class="main_btn">
+        <a href="#">Order Now</a>
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+    </section>
+    <div id="Menu" class="menu">
+      <h2>Our Product</h2>
+      <br />
+      <div id="card-container" class="card-container"></div>
+      <div id="card-container2" class="card-container1"></div>
+    </div>
+    <h1>Our Promotion</h1>
+    <br />
+    <!-- carocel discount -->
+    <div id="carouselExample" class="carousel">
+      <div class="text">
+        <h1>Really great with Pizza</h1>
+        <br />
+        <p>
+          There's nothing better than enjoying your favorite pizza—except when
+          it comes with a great discount! Imagine sinking your teeth into a
+          delicious slice topped with gooey cheese, fresh ingredients, and
+          savory sauce, all at a fraction of the price. Whether it's a
+          buy-one-get-one deal, a percentage off your order, or special offers
+          on family-sized pizzas, these discounts make it easy to treat yourself
+          or share a meal with friends and family. So, grab this tasty offer,
+          satisfy your cravings, and enjoy the comfort of pizza without breaking
+          the bank!
+        </p>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/pizza1.png"
+            alt="Slide 1"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption"></div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/pizza1.png"
+            alt="Slide 2"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption"></div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/pizza1.png"
+            alt="Slide 3"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption"></div>
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <button onclick="goToSlide(0)" class="active"></button>
+        <button onclick="goToSlide(1)"></button>
+        <button onclick="goToSlide(2)"></button>
+      </div>
+    </div>
+    <br />
+    <div id="dis">
+      <div id="card-containerdis" class="card-containerdis"></div>
+    </div>
+    <div id="dis1">
+      <div id="card-containerdis1" class="card-containerdis"></div>
+    </div>
+    <h1>Our Service</h1>
+    <br /><br />
+    <div class="contaner1" id="About">
+      <div class="box1">
+        <h1>Good service, friendly staff</h1>
+        <br />
+        <p>
+          Our pizza service is built around delivering exceptional taste,
+          quality, and convenience to satisfy every pizza lover's craving. We
+          offer a wide range of delicious options crafted to suit diverse
+          tastes, from classic Margherita and pepperoni to gourmet creations
+          featuring unique toppings and flavors. Each pizza is made with the
+          finest ingredients, from our freshly prepared dough to our rich,
+          savory sauces and high-quality cheeses, ensuring every bite is
+          memorable. Our team is dedicated to perfecting each pizza to meet your
+          expectations and provide a truly satisfying experience. We believe in
+          going beyond just a meal, creating moments that bring friends and
+          families together over shared slices of deliciousness. Whether you’re
+          looking for a quick lunch, a family dinner, or a party treat, our
+          pizzas are made to bring joy and flavor to any occasion. With a focus
+          on quality, flavor, and customer care, we’re here to make every pizza
+          night a special one.
+        </p>
+      </div>
+      <div class="box2">
+        <video controls>
+          <source src="/image/delivery.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <div class="services-section" id="services-section"></div>
+    <br />
+    <div class="services-section" id="services-section1"></div>
+    <h1>Our About</h1>
+    <br /><br />
+    <div class="contaner1" id="About">
+      <div class="box1">
+        <h1>Amazing taste like never before</h1>
+        <br />
+        <p>
+          Pizza is a beloved dish enjoyed by people of all ages around the
+          world. Known for its irresistible combination of a crispy crust,
+          savory tomato sauce, gooey melted cheese, and a wide variety of
+          toppings, pizza offers endless possibilities to satisfy any craving.
+          Whether you’re a fan of the classic Margherita, a hearty meat-lovers'
+          pizza, or a fresh veggie-packed option, there’s a flavor for everyone.
+          Originating in Italy, pizza quickly spread globally, becoming a staple
+          in many cultures. Its versatility allows for customization, from
+          different types of crust to a range of sauces and toppings, making
+          each pizza a unique experience. Beyond its delicious taste, pizza is
+          also a social food, often shared among friends and family during
+          gatherings and celebrations. The ease of ordering or making pizza at
+          home further adds to its widespread appeal. With its rich history and
+          universal popularity, pizza remains one of the most cherished and
+          accessible comfort foods worldwide.
+        </p>
+      </div>
+      <div class="box2">
+        <video controls>
+          <source src="/image/video1.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+
+    <h2>Recomment By Costomer</h2>
+    <div class="about" id="about1"></div>
+    <h1>Contact As</h1>
+    <div class="contact" id="Contact">
+      <div class="contact-box1">
+        <img src="/image/login.avif" alt="">
+      </div>
+      <div class="contact-box2">
+        <label for="username">Username or Gmail:</label>
+        <input type="text" id="username" placeholder="Enter your username or Gmail">
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+    
+        <button type="button" onclick="login()">Login</button>
+    </div>
+      <div class="contact-box3">
+        <br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.773035705363!2d104.88950057481728!3d11.56812178863294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2z4Z6f4Z624Z6A4Z6b4Z6c4Z634Z6R4Z-S4Z6Z4Z624Z6b4Z-Q4Z6Z4Z6X4Z684Z6Y4Z634Z6T4Z-S4Z6R4Z6X4Z-S4Z6T4Z-G4Z6W4Z-B4Z6J!5e0!3m2!1skm!2skh!4v1731205139735!5m2!1skm!2skh"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>  
+    <br>  
+    <footer>
+      <div class="footer_main">
+
+          <div class="footer_tag">
+              <h2>Location</h2>
+              <p>Cambodia</p>
+              <p>Kompot</p>
+              <p>Chhuck</p>
+              <p>Phnom penh</p>
+              <p>Takeo</p>
+          </div>
+
+          <div class="footer_tag">
+              <h2>Quick Link</h2>
+              <p>Home</p>
+              <p>Product</p>
+              <p>Promotion</p>
+              <p>Sevice</p>
+              <p>About</p>
+              <p>Contact</p>
+          </div>
+
+          <div class="footer_tag">
+              <h2>Contact</h2>
+              <p>081639274</p>
+              <p>+081639274</p>
+              <p>choemsaro@gmail.com</p>
+              <p>choemsaro662@gmail.com</p>
+          </div>
+
+          <div class="footer_tag">
+              <h2>Our Service</h2>
+              <p>Fast Delivery</p>
+              <p>Easy Payments</p>
+              <p>24 x 7 Service</p>
+          </div>
+          <div class="footer_tag">
+            <h2>Follows</h2>
+            <a href="https://facebook.com" target="blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+      </div>
+
+      <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> Saro Choem</span></p>
+
+  </footer>
+  </body>
+  <script src="/FootProject.js"></script>
+</html>
